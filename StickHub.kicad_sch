@@ -1,4 +1,4 @@
-(kicad_sch (version 20200828) (generator eeschema)
+(kicad_sch (version 20201015) (generator eeschema)
 
   (page 1 1)
 
@@ -1137,6 +1137,7 @@
   )
 
   (junction (at 45.72 283.21) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 45.72 290.83) (diameter 1.016) (color 0 0 0 0))
   (junction (at 50.8 45.72) (diameter 1.016) (color 0 0 0 0))
   (junction (at 50.8 53.34) (diameter 1.016) (color 0 0 0 0))
   (junction (at 67.31 38.1) (diameter 1.016) (color 0 0 0 0))
@@ -1287,6 +1288,9 @@
   (wire (pts (xy 45.72 290.83) (xy 52.07 290.83))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
+  (wire (pts (xy 45.72 295.91) (xy 45.72 290.83))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
   (wire (pts (xy 49.53 35.56) (xy 52.07 35.56))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
@@ -1312,6 +1316,9 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 50.8 53.34) (xy 67.31 53.34))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+  )
+  (wire (pts (xy 52.07 295.91) (xy 45.72 295.91))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (wire (pts (xy 57.15 35.56) (xy 59.69 35.56))
@@ -3173,21 +3180,6 @@
     )
     (property "Datasheet" "" (id 3) (at 81.28 328.93 0)
       (effects (font (size 1.524 1.524)))
-    )
-  )
-
-  (symbol (lib_id "power:+1V8") (at 52.07 295.91 90) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid "ba98ef78-cdec-4136-8914-77a052bdeeae")
-    (property "Reference" "#PWR040" (id 0) (at 55.88 295.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+1V8" (id 1) (at 48.514 295.91 0))
-    (property "Footprint" "" (id 2) (at 52.07 295.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 52.07 295.91 0)
-      (effects (font (size 1.27 1.27)) hide)
     )
   )
 
@@ -6145,6 +6137,10 @@
     )
   )
 
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
   (symbol_instances
     (path "/f12ce8bf-6e34-4bc5-b30f-3aacc673124e"
       (reference "#PWR01") (unit 1) (value "VIN") (footprint "")
@@ -6256,9 +6252,6 @@
     )
     (path "/5dd77703-9569-477c-b2ea-9024937e568a"
       (reference "#PWR039") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ba98ef78-cdec-4136-8914-77a052bdeeae"
-      (reference "#PWR040") (unit 1) (value "+1V8") (footprint "")
     )
     (path "/70e6fa24-fccd-4729-838f-8fdee455176f"
       (reference "#PWR041") (unit 1) (value "GND") (footprint "")
