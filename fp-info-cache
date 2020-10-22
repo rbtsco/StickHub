@@ -1,4 +1,4 @@
-20172330391753564
+20175539169725564
 Battery
 21700_Pad_Neg
 
@@ -2894,6 +2894,20 @@ Capacitor_SMD
 CP_Elec_6.3x9.9
 SMD capacitor, aluminum electrolytic, Panasonic C10, 6.3x9.9mm
 capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_6.3x11_Board_Edge
+
+
+0
+2
+2
+Capacitor_SMD
+CP_Elec_6.3x11_Board_Edge_Mirrored
+
+
 0
 2
 2
