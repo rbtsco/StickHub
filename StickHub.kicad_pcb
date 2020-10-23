@@ -4986,7 +4986,7 @@
       (net 2 "+5V") (pinfunction "+") (tstamp 3112d753-8a51-4868-9beb-1e1662ddeea5))
     (pad "2" connect roundrect (at -1.25 -2.25 180) (size 1.5 4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.333)
       (net 1 "GND") (pinfunction "-") (tstamp 8d94f1bc-c97a-43f2-b695-18d69d0ad820))
-    (model "${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Radial_D6.3mm_H11.0mm_P2.50mm.wrl"
+    (model "${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Radial_D6.3mm_H11.0mm_P2.50mm.wrl" hide
       (offset (xyz 1.25 0 0.35))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 -180 0))
