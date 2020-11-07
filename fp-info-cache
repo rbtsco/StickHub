@@ -1,4 +1,4 @@
-20175539169725564
+20180516642347564
 Battery
 21700_Pad_Neg
 
@@ -45710,7 +45710,7 @@ USB Type-C Plug Edge Mount
 24
 23
 Connector_USB
-USB_C_Plug_XKB_Connectivity_U261-24XN-4BS60
+USB_C_Plug_XKB_U261-24XN-4BS60
 
 
 0
@@ -45787,6 +45787,13 @@ USB C Type-C Receptacle SMD
 28
 25
 Connector_USB
+USB_C_Receptacle_Jing_C168700
+
+
+0
+28
+25
+Connector_USB
 USB_C_Receptacle_Molex_2012670005
 
 
@@ -45814,6 +45821,20 @@ USB C Type-C Receptacle SMD
 0
 20
 17
+Connector_USB
+USB_C_Receptacle_XKB_U262-241N-4BVC16
+
+
+0
+30
+25
+Connector_USB
+USB_C_Receptacle_XKB_U263-24XN-4BQC14
+
+
+0
+28
+25
 Connector_USB
 USB_Cable_Pads_4P
 
