@@ -1,8 +1,8 @@
 M48
-; DRILL file {KiCad (5.99.0-6798-g88abcc1287)} date Sat Nov  7 12:04:30 2020
+; DRILL file {KiCad (5.99.0-7706-gdc1c80beb8)} date Thu Dec 31 15:10:05 2020
 ; FORMAT={-:-/ absolute / metric / decimal}
-; #@! TF.CreationDate,2020-11-07T12:04:30+03:00
-; #@! TF.GenerationSoftware,Kicad,Pcbnew,(5.99.0-6798-g88abcc1287)
+; #@! TF.CreationDate,2020-12-31T15:10:05+03:00
+; #@! TF.GenerationSoftware,Kicad,Pcbnew,(5.99.0-7706-gdc1c80beb8)
 FMAT,2
 METRIC
 T1C0.300
