@@ -66,7 +66,7 @@
         "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_too_small": "error",
+        "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "hole_clearance": "error",
@@ -76,7 +76,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "malformed_courtyard": "warning",
-        "microvia_drill_too_small": "error",
+        "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
@@ -404,7 +404,7 @@
   },
   "sheets": [
     [
-      "5d2e9efa-a28a-4e74-b3ab-d720ad91d584",
+      "3d0d0b2f-08fc-4e88-9cad-c3bbdd2cc0e4",
       ""
     ]
   ],
