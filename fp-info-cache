@@ -1,4 +1,4 @@
-20180516642347564
+21019493943507564
 Battery
 21700_Pad_Neg
 
@@ -678,6 +678,13 @@ SWITCH PUSHBUTTON
 0
 4
 2
+Button_Switch_SMD
+SPDT_Slide_HRO_K3-1293S
+
+
+0
+7
+4
 Button_Switch_SMD
 SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin
 SMD 1x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
@@ -2578,7 +2585,7 @@ Capacitor, pol, cyl 16x25mm
 Capacitor_SMD
 1005_C
 
-0402 1005
+0402 1005 Capacitor
 0
 2
 2
@@ -2606,21 +2613,21 @@ Capacitor_SMD
 Capacitor_SMD
 2012_A
 
-0805 2012
+0805 2012 Capacitor
 0
 2
 2
 Capacitor_SMD
 2012_B
 
-0805 2012
+0805 2012 Capacitor
 0
 2
 2
 Capacitor_SMD
 2012_C
 
-0805 2012
+0805 2012 Capacitor
 0
 2
 2
@@ -2640,6 +2647,13 @@ Capacitor_SMD
 2
 Capacitor_SMD
 3216_C
+
+1206 3216
+0
+2
+2
+Capacitor_SMD
+3225_C
 
 1206 3216
 0
@@ -12516,6 +12530,34 @@ Hirose_DF37NC-30DS-0.4V
 30
 30
 Connector_Hirose
+Hirose_DF40C-40DP-0.4V_2x20_P0.4
+
+
+0
+44
+41
+Connector_Hirose
+Hirose_DF40C-50DP-0.4V_2x25_P0.4
+
+
+0
+54
+51
+Connector_Hirose
+Hirose_DF40C-60DP-0.4V_2x30_P0.4
+
+
+0
+64
+61
+Connector_Hirose
+Hirose_DF40C-90DP-0.4V_2x45_P0.4
+
+
+0
+94
+91
+Connector_Hirose
 Hirose_DF50-40DP-1H
 
 
@@ -15659,6 +15701,34 @@ connector JST SFH horizontal
 4
 3
 Connector_JST
+JST_SHD_SM20B-SRDS-G-TF_2x10_P1.0_Right_Angle
+
+
+0
+22
+21
+Connector_JST
+JST_SHD_SM30B-SRDS-G-TF_2x15_P1.0_Right_Angle
+
+
+0
+32
+31
+Connector_JST
+JST_SHD_SM40B-SRDS-G-TF_2x20_P1.0_Right_Angle
+
+
+0
+42
+41
+Connector_JST
+JST_SHD_SM50B-SRDS-G-TF_2x25_P1.0_Right_Angle
+
+
+0
+52
+51
+Connector_JST
 JST_SHL_SM02B-SHLS-TF_1x02-1MP_P1.00mm_Horizontal
 JST SHL series connector, SM02B-SHLS-TF (http://www.jst-mfg.com/product/pdf/eng/eSHL.pdf), generated with kicad-footprint-generator
 connector JST SHL top entry
@@ -17128,6 +17198,13 @@ connector JST XH horizontal
 0
 3
 3
+Connector_JST
+JST_XH_S3B-XH-SM4-TB_1x03_P2.50mm_RightAngle
+JST XH series connector, S3B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH horizontal
+0
+5
+4
 Connector_JST
 JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal
 JST XH series connector, S4B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
@@ -45822,6 +45899,13 @@ USB C Type-C Receptacle SMD
 20
 17
 Connector_USB
+USB_C_Receptacle_XKB_U262-241N-4BV64
+
+
+0
+30
+25
+Connector_USB
 USB_C_Receptacle_XKB_U262-241N-4BVC16
 
 
@@ -52010,6 +52094,13 @@ http://www.display-elektronik.de/filter/DE113-RS-20_635.pdf
 40
 40
 Display_7Segment
+DE119-XX-XX
+https://www.display-elektronik.de/filter/DE119-RS-20_635.pdf
+4 digit 7 segment LCD 
+0
+40
+40
+Display_7Segment
 DE122-XX-XX
 http://www.display-elektronik.de/filter/DE122-RS-20_635.pdf
 6 digit 7 segment LCD 
@@ -53116,6 +53207,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 2
 2
 Fuse
+Littelfuse_femtoASMDC_1608
+
+
+0
+2
+2
+Fuse
 NTC_22x6_5.0_pitch
 
 
@@ -53143,6 +53241,13 @@ Bolt_DIN6912_M3x6
 0
 0
 0
+Hardware
+Coin_2_euro
+
+
+0
+1
+1
 Hardware
 O-Ring_6x1
 
@@ -58261,6 +58366,13 @@ Pololu Breakout
 16
 16
 Module
+Raspberry-Pi-4-Compute-Module
+Raspberry Pi 4 Compute Module
+Raspberry Pi 4 Compute Module
+0
+200
+200
+Module
 Raspberry_Pi_3_mount_holes
 
 
@@ -59626,6 +59738,13 @@ Plain_Hole_1mm
 0
 0
 MountingHole
+Plain_Hole_2mm
+
+
+0
+0
+0
+MountingHole
 Plain_Hole_3mm
 
 
@@ -59646,6 +59765,13 @@ Support_Hole_3mm
 0
 0
 0
+MountingHole
+Vibration_Mount_M2x5.6
+
+
+0
+1
+1
 Mounting_Wuerth
 Mounting_Wuerth_WA-SMSE-ExternalM3_H5mm_9771050360
 Mounting Hardware, external M3, height 5, Wuerth electronics 9771050360 (https://katalog.we-online.com/em/datasheet/9771050360.pdf), generated with kicad-footprint-generator
@@ -62532,6 +62658,20 @@ BGA 169 0.5
 169
 Package_BGA
 UFBGA-201_10x10mm_Layout15x15_P0.65mm
+UFBGA-201, 15x15 raster, 10x10mm package, pitch 0.65mm; see section 7.6 of http://www.st.com/resource/en/datasheet/stm32f207vg.pdf
+BGA 201 0.65
+0
+201
+201
+Package_BGA
+UFBGA-201_10x10mm_Layout15x15_P0.65mm_0.125_opt_pads_C
+UFBGA-201, 15x15 raster, 10x10mm package, pitch 0.65mm. This version allows routing with 125/125um tracks and 450/250um vias
+BGA 201 0.65
+0
+201
+201
+Package_BGA
+UFBGA-201_10x10mm_Layout15x15_P0.65mm_C
 UFBGA-201, 15x15 raster, 10x10mm package, pitch 0.65mm; see section 7.6 of http://www.st.com/resource/en/datasheet/stm32f207vg.pdf
 BGA 201 0.65
 0
@@ -67146,6 +67286,20 @@ VQFN NoLead
 Package_DFN_QFN
 VQFN-32-1EP_5x5mm_P0.5mm_EP3.5x3.5mm_ThermalVias
 VQFN, 32 Pin (https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4222H.pdf#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+47
+33
+Package_DFN_QFN
+VQFN-32-1EP_5x5mm_P0.5mm_EP3.15x3.15mm
+VQFN, 32 Pin (https://www.ti.com/lit/ds/slvs589d/slvs589d.pdf#page=33), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+37
+33
+Package_DFN_QFN
+VQFN-32-1EP_5x5mm_P0.5mm_EP3.15x3.15mm_ThermalVias
+VQFN, 32 Pin (https://www.ti.com/lit/ds/slvs589d/slvs589d.pdf#page=33), generated with kicad-footprint-generator ipc_noLead_generator.py
 VQFN NoLead
 0
 47
@@ -72667,6 +72821,13 @@ SON5
 5
 5
 Package_SON
+Texas_8-VSON-HR_1.5x2_P0.5
+
+
+0
+8
+8
+Package_SON
 Texas_DQK
 Texas WSON-6 DQK, http://www.ti.com/lit/ds/symlink/csd16301q2.pdf
 Texas WSON6 2x2mm
@@ -73006,6 +73167,13 @@ Package_SON
 WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm
 WSON, 8 Pin (http://ww1.microchip.com/downloads/en/AppNotes/S72030.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 WSON NoLead
+0
+13
+9
+Package_SON
+WSON-8-1EP_8x6_P12.7_EP3.4x4.3
+
+
 0
 13
 9
@@ -73354,22 +73522,15 @@ SC-101
 3
 Package_TO_SOT_SMD
 SOT-23
-SOT-23, Standard
-SOT-23
-0
-3
-3
-Package_TO_SOT_SMD
-SOT-23-3
-
-SOT-23 SOT-23-3 SOT23
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
 0
 3
 3
 Package_TO_SOT_SMD
 SOT-23-5
-5-pin SOT23 package
-SOT-23-5
+SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
 0
 5
 5
@@ -73382,8 +73543,8 @@ SOT-23-5 hand-soldering
 5
 Package_TO_SOT_SMD
 SOT-23-6
-
-SOT23-6
+SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
 0
 6
 6
@@ -78400,6 +78561,13 @@ TE_ORWH-SH-105D1F000
 10
 5
 Resistor_SMD
+1005_A
+
+0402 1005
+0
+2
+2
+Resistor_SMD
 1005_C
 
 0402 1005
@@ -78499,6 +78667,13 @@ Resistor_SMD
 2
 Resistor_SMD
 6432_C
+
+
+0
+2
+2
+Resistor_SMD
+10055_A
 
 
 0
@@ -80073,6 +80248,13 @@ SH_Solder_Pads
 1
 1
 SH_Solder_Pads
+1P_6.5x4_SQ
+
+
+0
+1
+1
+SH_Solder_Pads
 1P_Castellated_16mm2
 
 
@@ -80101,6 +80283,20 @@ SH_Solder_Pads
 2
 2
 SH_Solder_Pads
+1P_TH_1.5_1.8x2.5
+
+
+0
+2
+1
+SH_Solder_Pads
+1P_TH_2_2.3x3
+
+
+0
+2
+1
+SH_Solder_Pads
 2P_1.5x1.5_2.5_pitch
 
 
@@ -80109,6 +80305,13 @@ SH_Solder_Pads
 2
 SH_Solder_Pads
 2P_1.5x1.5_2_pitch
+
+
+0
+2
+2
+SH_Solder_Pads
+2P_1.5x1_P1.25
 
 
 0
@@ -80171,6 +80374,34 @@ SH_Solder_Pads
 2
 2
 SH_Solder_Pads
+2P_7.3x7.3_P7.8
+
+
+0
+2
+2
+SH_Solder_Pads
+2P_7.3x7.3_P8.3
+
+
+0
+2
+2
+SH_Solder_Pads
+2P_7.3x7.3_P8.55
+
+
+0
+2
+2
+SH_Solder_Pads
+2P_7.25x7.25_P7.75
+
+
+0
+2
+2
+SH_Solder_Pads
 2P_Castellated_16mm2
 
 
@@ -80190,6 +80421,13 @@ SH_Solder_Pads
 
 0
 2
+2
+SH_Solder_Pads
+2P_TH_1_1.3x2
+
+
+0
+4
 2
 SH_Solder_Pads
 2x3P_1.3x1.3_1.5_pitch
@@ -80213,6 +80451,13 @@ SH_Solder_Pads
 20
 20
 SH_Solder_Pads
+3P_TH_1_1.3x2
+
+
+0
+6
+3
+SH_Solder_Pads
 4P_1mm_1.2_pitch_2x2R
 
 
@@ -80228,6 +80473,13 @@ SH_Solder_Pads
 4
 SH_Solder_Pads
 4P_3.5x3_3.5_pitch
+
+
+0
+4
+4
+SH_Solder_Pads
+4P_3x1.75_P2.0
 
 
 0
@@ -85288,12 +85540,26 @@ THT Terminal Block WAGO 236-104 45Degree pitch 5mm size 22.3x14mm^2 drill 1.15mm
 4
 4
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-105_1x05_P5.00mm_45Degree
+Terminal Block WAGO 236-105, 45Degree (cable under 45degree), 5 pins, pitch 5mm, size 27.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-105 45Degree pitch 5mm size 27.3x14mm^2 drill 1.15mm pad 3mm
+0
+5
+5
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-106_1x06_P5.00mm_45Degree
 Terminal Block WAGO 236-106, 45Degree (cable under 45degree), 6 pins, pitch 5mm, size 32.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-106 45Degree pitch 5mm size 32.3x14mm^2 drill 1.15mm pad 3mm
 0
 6
 6
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-107_1x07_P5.00mm_45Degree
+Terminal Block WAGO 236-107, 45Degree (cable under 45degree), 7 pins, pitch 5mm, size 37.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-107 45Degree pitch 5mm size 37.3x14mm^2 drill 1.15mm pad 3mm
+0
+7
+7
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-108_1x08_P5.00mm_45Degree
 Terminal Block WAGO 236-108, 45Degree (cable under 45degree), 8 pins, pitch 5mm, size 42.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -85302,12 +85568,26 @@ THT Terminal Block WAGO 236-108 45Degree pitch 5mm size 42.3x14mm^2 drill 1.15mm
 8
 8
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-109_1x09_P5.00mm_45Degree
+Terminal Block WAGO 236-109, 45Degree (cable under 45degree), 9 pins, pitch 5mm, size 47.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-109 45Degree pitch 5mm size 47.3x14mm^2 drill 1.15mm pad 3mm
+0
+9
+9
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-112_1x12_P5.00mm_45Degree
 Terminal Block WAGO 236-112, 45Degree (cable under 45degree), 12 pins, pitch 5mm, size 62.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-112 45Degree pitch 5mm size 62.3x14mm^2 drill 1.15mm pad 3mm
 0
 12
 12
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-114_1x14_P5.00mm_45Degree
+Terminal Block WAGO 236-114, 45Degree (cable under 45degree), 14 pins, pitch 5mm, size 72.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-114 45Degree pitch 5mm size 72.3x14mm^2 drill 1.15mm pad 3mm
+0
+14
+14
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-116_1x16_P5.00mm_45Degree
 Terminal Block WAGO 236-116, 45Degree (cable under 45degree), 16 pins, pitch 5mm, size 82.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -85365,6 +85645,13 @@ THT Terminal Block WAGO 236-204 45Degree pitch 7.5mm size 32.3x14mm^2 drill 1.15
 4
 4
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-205_1x05_P7.50mm_45Degree
+Terminal Block WAGO 236-205, 45Degree (cable under 45degree), 5 pins, pitch 7.5mm, size 39.8x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-205 45Degree pitch 7.5mm size 39.8x14mm^2 drill 1.15mm pad 3mm
+0
+5
+5
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-206_1x06_P7.50mm_45Degree
 Terminal Block WAGO 236-206, 45Degree (cable under 45degree), 6 pins, pitch 7.5mm, size 47.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-206 45Degree pitch 7.5mm size 47.3x14mm^2 drill 1.15mm pad 3mm
@@ -85372,12 +85659,26 @@ THT Terminal Block WAGO 236-206 45Degree pitch 7.5mm size 47.3x14mm^2 drill 1.15
 6
 6
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-207_1x07_P7.50mm_45Degree
+Terminal Block WAGO 236-207, 45Degree (cable under 45degree), 7 pins, pitch 7.5mm, size 54.8x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-207 45Degree pitch 7.5mm size 54.8x14mm^2 drill 1.15mm pad 3mm
+0
+7
+7
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-208_1x08_P7.50mm_45Degree
 Terminal Block WAGO 236-208, 45Degree (cable under 45degree), 8 pins, pitch 7.5mm, size 62.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-208 45Degree pitch 7.5mm size 62.3x14mm^2 drill 1.15mm pad 3mm
 0
 8
 8
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-209_1x09_P7.50mm_45Degree
+Terminal Block WAGO 236-209, 45Degree (cable under 45degree), 9 pins, pitch 7.5mm, size 69.8x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-209 45Degree pitch 7.5mm size 69.8x14mm^2 drill 1.15mm pad 3mm
+0
+9
+9
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-212_1x12_P7.50mm_45Degree
 Terminal Block WAGO 236-212, 45Degree (cable under 45degree), 12 pins, pitch 7.5mm, size 92.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -85428,6 +85729,13 @@ THT Terminal Block WAGO 236-304 45Degree pitch 10mm size 42.3x14mm^2 drill 1.15m
 4
 4
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-305_1x05_P10.00mm_45Degree
+Terminal Block WAGO 236-305, 45Degree (cable under 45degree), 5 pins, pitch 10mm, size 52.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-305 45Degree pitch 10mm size 52.3x14mm^2 drill 1.15mm pad 3mm
+0
+5
+5
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-306_1x06_P10.00mm_45Degree
 Terminal Block WAGO 236-306, 45Degree (cable under 45degree), 6 pins, pitch 10mm, size 62.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-306 45Degree pitch 10mm size 62.3x14mm^2 drill 1.15mm pad 3mm
@@ -85441,6 +85749,13 @@ THT Terminal Block WAGO 236-308 45Degree pitch 10mm size 82.3x14mm^2 drill 1.15m
 0
 8
 8
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-309_1x09_P10.00mm_45Degree
+Terminal Block WAGO 236-309, 45Degree (cable under 45degree), 9 pins, pitch 10mm, size 92.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-309 45Degree pitch 10mm size 92.3x14mm^2 drill 1.15mm pad 3mm
+0
+9
+9
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-312_1x12_P10.00mm_45Degree
 Terminal Block WAGO 236-312, 45Degree (cable under 45degree), 12 pins, pitch 10mm, size 122x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -85491,12 +85806,26 @@ THT Terminal Block WAGO 236-404 45Degree pitch 5mm size 22.3x14mm^2 drill 1.15mm
 8
 4
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-405_1x05_P5.00mm_45Degree
+Terminal Block WAGO 236-405, 45Degree (cable under 45degree), 5 pins, pitch 5mm, size 27.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-405 45Degree pitch 5mm size 27.3x14mm^2 drill 1.15mm pad 3mm
+0
+10
+5
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-406_1x06_P5.00mm_45Degree
 Terminal Block WAGO 236-406, 45Degree (cable under 45degree), 6 pins, pitch 5mm, size 32.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-406 45Degree pitch 5mm size 32.3x14mm^2 drill 1.15mm pad 3mm
 0
 12
 6
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-407_1x07_P5.00mm_45Degree
+Terminal Block WAGO 236-407, 45Degree (cable under 45degree), 7 pins, pitch 5mm, size 37.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-407 45Degree pitch 5mm size 37.3x14mm^2 drill 1.15mm pad 3mm
+0
+14
+7
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-408_1x08_P5.00mm_45Degree
 Terminal Block WAGO 236-408, 45Degree (cable under 45degree), 8 pins, pitch 5mm, size 42.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -85505,12 +85834,26 @@ THT Terminal Block WAGO 236-408 45Degree pitch 5mm size 42.3x14mm^2 drill 1.15mm
 16
 8
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-409_1x09_P5.00mm_45Degree
+Terminal Block WAGO 236-409, 45Degree (cable under 45degree), 9 pins, pitch 5mm, size 47.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-409 45Degree pitch 5mm size 47.3x14mm^2 drill 1.15mm pad 3mm
+0
+18
+9
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-412_1x12_P5.00mm_45Degree
 Terminal Block WAGO 236-412, 45Degree (cable under 45degree), 12 pins, pitch 5mm, size 62.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-412 45Degree pitch 5mm size 62.3x14mm^2 drill 1.15mm pad 3mm
 0
 24
 12
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-414_1x14_P5.00mm_45Degree
+Terminal Block WAGO 236-414, 45Degree (cable under 45degree), 14 pins, pitch 5mm, size 72.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-414 45Degree pitch 5mm size 72.3x14mm^2 drill 1.15mm pad 3mm
+0
+28
+14
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-416_1x16_P5.00mm_45Degree
 Terminal Block WAGO 236-416, 45Degree (cable under 45degree), 16 pins, pitch 5mm, size 82.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -85568,6 +85911,13 @@ THT Terminal Block WAGO 236-504 45Degree pitch 7.5mm size 32.3x14mm^2 drill 1.15
 8
 4
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-505_1x05_P7.50mm_45Degree
+Terminal Block WAGO 236-505, 45Degree (cable under 45degree), 5 pins, pitch 7.5mm, size 39.8x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-505 45Degree pitch 7.5mm size 39.8x14mm^2 drill 1.15mm pad 3mm
+0
+10
+5
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-506_1x06_P7.50mm_45Degree
 Terminal Block WAGO 236-506, 45Degree (cable under 45degree), 6 pins, pitch 7.5mm, size 47.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-506 45Degree pitch 7.5mm size 47.3x14mm^2 drill 1.15mm pad 3mm
@@ -85575,12 +85925,26 @@ THT Terminal Block WAGO 236-506 45Degree pitch 7.5mm size 47.3x14mm^2 drill 1.15
 12
 6
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-507_1x07_P7.50mm_45Degree
+Terminal Block WAGO 236-507, 45Degree (cable under 45degree), 7 pins, pitch 7.5mm, size 54.8x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-507 45Degree pitch 7.5mm size 54.8x14mm^2 drill 1.15mm pad 3mm
+0
+14
+7
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-508_1x08_P7.50mm_45Degree
 Terminal Block WAGO 236-508, 45Degree (cable under 45degree), 8 pins, pitch 7.5mm, size 62.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-508 45Degree pitch 7.5mm size 62.3x14mm^2 drill 1.15mm pad 3mm
 0
 16
 8
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-509_1x09_P7.50mm_45Degree
+Terminal Block WAGO 236-509, 45Degree (cable under 45degree), 9 pins, pitch 7.5mm, size 69.8x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-509 45Degree pitch 7.5mm size 69.8x14mm^2 drill 1.15mm pad 3mm
+0
+18
+9
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-512_1x12_P7.50mm_45Degree
 Terminal Block WAGO 236-512, 45Degree (cable under 45degree), 12 pins, pitch 7.5mm, size 92.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -85631,6 +85995,13 @@ THT Terminal Block WAGO 236-604 45Degree pitch 10mm size 42.3x14mm^2 drill 1.15m
 8
 4
 TerminalBlock_WAGO
+TerminalBlock_WAGO_236-605_1x05_P10.00mm_45Degree
+Terminal Block WAGO 236-605, 45Degree (cable under 45degree), 5 pins, pitch 10mm, size 52.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-605 45Degree pitch 10mm size 52.3x14mm^2 drill 1.15mm pad 3mm
+0
+10
+5
+TerminalBlock_WAGO
 TerminalBlock_WAGO_236-606_1x06_P10.00mm_45Degree
 Terminal Block WAGO 236-606, 45Degree (cable under 45degree), 6 pins, pitch 10mm, size 62.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 236-606 45Degree pitch 10mm size 62.3x14mm^2 drill 1.15mm pad 3mm
@@ -85644,6 +86015,13 @@ THT Terminal Block WAGO 236-608 45Degree pitch 10mm size 82.3x14mm^2 drill 1.15m
 0
 16
 8
+TerminalBlock_WAGO
+TerminalBlock_WAGO_236-609_1x09_P10.00mm_45Degree
+Terminal Block WAGO 236-609, 45Degree (cable under 45degree), 9 pins, pitch 10mm, size 92.3x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 236-609 45Degree pitch 10mm size 92.3x14mm^2 drill 1.15mm pad 3mm
+0
+18
+9
 TerminalBlock_WAGO
 TerminalBlock_WAGO_236-612_1x12_P10.00mm_45Degree
 Terminal Block WAGO 236-612, 45Degree (cable under 45degree), 12 pins, pitch 10mm, size 122x14mm^2, drill diamater 1.15mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -85736,12 +86114,40 @@ THT Terminal Block WAGO 804-110 45Degree pitch 5mm size 51.5x15mm^2 drill 1.2mm 
 20
 10
 TerminalBlock_WAGO
+TerminalBlock_WAGO_804-111_1x11_P5.00mm_45Degree
+Terminal Block WAGO 804-111, 45Degree (cable under 45degree), 11 pins, pitch 5mm, size 56.5x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 804-111 45Degree pitch 5mm size 56.5x15mm^2 drill 1.2mm pad 3mm
+0
+22
+11
+TerminalBlock_WAGO
 TerminalBlock_WAGO_804-112_1x12_P5.00mm_45Degree
 Terminal Block WAGO 804-112, 45Degree (cable under 45degree), 12 pins, pitch 5mm, size 61.5x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
 THT Terminal Block WAGO 804-112 45Degree pitch 5mm size 61.5x15mm^2 drill 1.2mm pad 3mm
 0
 24
 12
+TerminalBlock_WAGO
+TerminalBlock_WAGO_804-113_1x13_P5.00mm_45Degree
+Terminal Block WAGO 804-113, 45Degree (cable under 45degree), 13 pins, pitch 5mm, size 66.5x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 804-113 45Degree pitch 5mm size 66.5x15mm^2 drill 1.2mm pad 3mm
+0
+26
+13
+TerminalBlock_WAGO
+TerminalBlock_WAGO_804-114_1x14_P5.00mm_45Degree
+Terminal Block WAGO 804-114, 45Degree (cable under 45degree), 14 pins, pitch 5mm, size 71.5x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 804-114 45Degree pitch 5mm size 71.5x15mm^2 drill 1.2mm pad 3mm
+0
+28
+14
+TerminalBlock_WAGO
+TerminalBlock_WAGO_804-115_1x15_P5.00mm_45Degree
+Terminal Block WAGO 804-115, 45Degree (cable under 45degree), 15 pins, pitch 5mm, size 76.5x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 804-115 45Degree pitch 5mm size 76.5x15mm^2 drill 1.2mm pad 3mm
+0
+30
+15
 TerminalBlock_WAGO
 TerminalBlock_WAGO_804-116_1x16_P5.00mm_45Degree
 Terminal Block WAGO 804-116, 45Degree (cable under 45degree), 16 pins, pitch 5mm, size 81.5x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
@@ -85826,6 +86232,13 @@ THT Terminal Block WAGO 804-310 45Degree pitch 7.5mm size 74x15mm^2 drill 1.2mm 
 0
 20
 10
+TerminalBlock_WAGO
+TerminalBlock_WAGO_804-311_1x11_P7.50mm_45Degree
+Terminal Block WAGO 804-311, 45Degree (cable under 45degree), 11 pins, pitch 7.5mm, size 81.5x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO
+THT Terminal Block WAGO 804-311 45Degree pitch 7.5mm size 81.5x15mm^2 drill 1.2mm pad 3mm
+0
+22
+11
 TerminalBlock_WAGO
 TerminalBlock_WAGO_804-312_1x12_P7.50mm_45Degree
 Terminal Block WAGO 804-312, 45Degree (cable under 45degree), 12 pins, pitch 7.5mm, size 89x15mm^2, drill diamater 1.2mm, pad diameter 3mm, see , script-generated with , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_WAGO

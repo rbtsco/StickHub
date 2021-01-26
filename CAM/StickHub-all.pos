@@ -1,5 +1,5 @@
-### Module positions - created on Thu Dec 31 15:10:44 2020 ###
-### Printed by Pcbnew version (5.99.0-7706-gdc1c80beb8)
+### Module positions - created on Tue Jan 26 13:49:53 2021 ###
+### Printed by Pcbnew version (5.99.0-8557-gaf5825bd36)
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref     Val                   Package                                                PosX       PosY       Rot  Side
@@ -33,7 +33,6 @@ C34       22uF_10V              1608_C                                          
 C35       22uF_10V              1608_C                                            -152.1000   -89.0500   45.0000  bottom
 C36       22uF_10V              1608_C                                            -151.3929   -88.3429   45.0000  bottom
 C37       22uF_10V              1608_C                                            -150.6858   -87.6358   45.0000  bottom
-C38       330uF_10V             CP_Elec_6.3x11_Board_Edge_Mirrored                -155.0000   -80.0000  180.0000  bottom
 D22       TVS                   1006_C                                            -147.0000  -107.2000  -90.0000  bottom
 D23       TVS                   1006_C                                            -146.2500  -107.2000  -90.0000  bottom
 D24       5V                    1006_C                                            -155.9000  -103.1000  -90.0000  bottom

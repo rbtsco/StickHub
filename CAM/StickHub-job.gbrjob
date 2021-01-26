@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(5.99.0-7706-gdc1c80beb8)"
+      "Version": "(5.99.0-8557-gaf5825bd36)"
     },
-    "CreationDate": "2020-12-31T15:10:14+03:00"
+    "CreationDate": "2021-01-26T13:49:02+03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -86,6 +86,16 @@
     {
       "Path": "StickHub-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "StickHub-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "StickHub-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
   ],
