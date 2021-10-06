@@ -8,3 +8,4 @@ In contrast to cheap hubs each port supports LS, FS and HS independently for opt
 
 Full ESD protection: A TVS per data line and a 2012 capacitor per power line. Inrush current control and short circuit protection. 308uF downstream capacitance. Individual status LEDs for the downsteam ports.
 
+The StickHub home page has more specification and details: https://rbts.co/h1
